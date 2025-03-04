@@ -44,28 +44,28 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-20">
+    <section id="faq" className="py-20 bg-secondary-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">
+        <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">
           Your Questions, Answered
         </h2>
         <div className="max-w-3xl mx-auto">
           {faqs.map((faq, index) => (
             <div key={index}>
               <button
-                className="w-full text-left py-6 focus:outline-none border-b border-gray-200"
+                className="w-full text-left py-6 focus:outline-none border-b border-secondary-200"
                 onClick={() => toggleQuestion(index)}
               >
                 <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-900">
+                  <h3 className="text-lg font-semibold text-primary-700">
                     {faq.question}
                   </h3>
-                  <span className="text-blue-900 text-xl">
+                  <span className="text-primary-800 text-xl">
                     {openQuestion === index ? '−' : '+'}
                   </span>
                 </div>
                 {openQuestion === index && (
-                  <div className="mt-4 text-gray-600 text-base">
+                  <div className="mt-4 text-primary-600 text-base">
                     {faq.answer}
                   </div>
                 )}

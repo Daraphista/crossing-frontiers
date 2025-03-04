@@ -54,22 +54,22 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-secondary-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">How We Can Help You</h2>
+        <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">How We Can Help You</h2>
         
         {/* U.S. Work Visas Section */}
         <div className="max-w-6xl mx-auto mb-16">
-          <h3 className="text-2xl font-bold text-blue-800 mb-8">U.S. Work Visas</h3>
+          <h3 className="text-2xl font-bold text-primary-700 mb-8">U.S. Work Visas</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {visaCategories.map((category, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg p-6">
-                <h4 className="text-xl font-semibold text-blue-900 mb-4">{category.title}</h4>
+                <h4 className="text-xl font-semibold text-primary-800 mb-4">{category.title}</h4>
                 <ul className="space-y-4">
                   {category.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex flex-col">
-                      <span className="font-medium text-gray-900">{item.name}</span>
-                      <span className="text-gray-600 text-sm">{item.description}</span>
+                      <span className="font-medium text-primary-700">{item.name}</span>
+                      <span className="text-primary-600 text-sm">{item.description}</span>
                     </li>
                   ))}
                 </ul>
@@ -80,16 +80,16 @@ export default function Services() {
 
         {/* Green Cards Section */}
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-2xl font-bold text-blue-800 mb-8">U.S. Permanent Residence (Green Cards)</h3>
+          <h3 className="text-2xl font-bold text-primary-700 mb-8">U.S. Permanent Residence (Green Cards)</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {greenCardCategories.map((category, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg p-6">
-                <h4 className="text-xl font-semibold text-blue-900 mb-4">{category.title}</h4>
+                <h4 className="text-xl font-semibold text-primary-800 mb-4">{category.title}</h4>
                 <ul className="space-y-4">
                   {category.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex flex-col">
-                      <span className="font-medium text-gray-900">{item.name}</span>
-                      <span className="text-gray-600 text-sm">{item.description}</span>
+                      <span className="font-medium text-primary-700">{item.name}</span>
+                      <span className="text-primary-600 text-sm">{item.description}</span>
                     </li>
                   ))}
                 </ul>

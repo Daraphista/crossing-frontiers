@@ -32,18 +32,18 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-primary-900 text-white">
       <div className="container mx-auto px-6 py-12">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Crossing Frontiers P.C.</h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-secondary-200 text-sm">
               Strategic U.S. immigration solutions for entrepreneurs, businesses, and professionals.
             </p>
             <div className="pt-2">
-              <div className="inline-block bg-blue-900 px-4 py-2 rounded-lg text-sm">
+              <div className="inline-block bg-primary-800 px-4 py-2 rounded-lg text-sm">
                 Licensed in U.S. & Canada
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Footer() {
                   <li key={linkIndex}>
                     <a
                       href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors text-sm"
+                      className="text-secondary-200 hover:text-white transition-colors text-sm"
                     >
                       {link.name}
                     </a>
@@ -70,12 +70,12 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-primary-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-gray-400">
+            <div className="text-sm text-secondary-200">
               © {currentYear} Crossing Frontiers P.C. All rights reserved.
             </div>
-            <div className="flex space-x-6 text-sm text-gray-400">
+            <div className="flex space-x-6 text-sm text-secondary-200">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
             </div>
