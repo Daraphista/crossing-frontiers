@@ -27,7 +27,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center relative">
+            {/* Trust Badge */}
+            <div className="absolute -top-8 right-0 bg-green-500 text-white px-6 py-2 rounded-full transform rotate-14 shadow-lg">
+              <span className="text-sm font-semibold"><span className="text-xl">100</span>+ Startups Helped</span>
+            </div>
+            
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               You Deserve a Clear Path to U.S. Immigration Success
             </h1>
@@ -53,8 +58,17 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               {/* Left Section - Image */}
-              <div>
-                <div className="w-full h-[400px] bg-gray-300 rounded-lg" />
+              <div className="relative">
+                <div className="w-full h-[400px] bg-gray-300 rounded-lg overflow-hidden">
+                  {/* Placeholder for actual image */}
+                </div>
+                {/* Experience Badge */}
+                <div className="absolute -bottom-6 -right-6 bg-blue-900 text-white p-6 rounded-lg shadow-xl transform rotate-3">
+                  <div className="text-center">
+                    <span className="block text-xl font-bold">10+ Years</span>
+                    <span className="text-sm">Experience</span>
+                  </div>
+                </div>
               </div>
 
               {/* Right Section - Content */}
@@ -107,8 +121,17 @@ export default function Home() {
               </div>
 
               {/* Right Column - Image */}
-              <div>
-                <div className="w-full h-[500px] bg-gray-300 rounded-lg" />
+              <div className="relative">
+                <div className="w-full h-[500px] bg-gray-300 rounded-lg overflow-hidden">
+                  {/* Placeholder for actual image */}
+                </div>
+                {/* Success Badge */}
+                <div className="absolute -bottom-8 -left-8 bg-green-600 text-white p-8 rounded-full shadow-xl transform -rotate-12">
+                  <div className="text-center">
+                    <span className="block text-2xl font-bold">Proven</span>
+                    <span className="text-sm">Track Record</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -152,9 +175,22 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Right Column - Gray Square */}
-              <div>
-                <div className="w-full h-[400px] bg-gray-300 rounded-lg" />
+              {/* Right Column - Image with Trust Indicators */}
+              <div className="relative">
+                <div className="w-full h-[400px] bg-gray-300 rounded-lg overflow-hidden">
+                  {/* Placeholder for actual image */}
+                </div>
+                {/* Client Badge */}
+                <div className="absolute -top-6 -right-6 bg-white text-blue-900 p-6 rounded-lg shadow-xl transform rotate-6">
+                  <div className="text-center">
+                    <span className="block text-2xl font-bold">★★★★★</span>
+                    <span className="text-sm">Client Reviews</span>
+                  </div>
+                </div>
+                {/* Service Badge */}
+                <div className="absolute -bottom-4 -left-4 bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg">
+                  <span className="text-sm font-semibold">Dedicated Support</span>
+                </div>
               </div>
             </div>
           </div>
