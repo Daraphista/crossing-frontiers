@@ -2,6 +2,7 @@ import Image from "next/image";
 import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import OwnerSpotlight from "./components/OwnerSpotlight";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -196,6 +197,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
