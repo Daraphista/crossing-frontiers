@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation Bar */}
-      <nav className="sticky top-0 w-full bg-white shadow-sm z-50">
+      <nav className="fixed top-0 w-full bg-white shadow-sm z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-primary-800">
@@ -25,12 +25,26 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Add scroll listener for nav transparency */}
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+              nav.classList.add('bg-white', 'shadow-sm');
+            } else {
+              nav.classList.remove('bg-white', 'shadow-sm');
+            }
+          });
+        `
+      }} />
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-r from-secondary-50 to-secondary-100">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center relative">
             {/* Trust Badge */}
-            <div className="absolute -top-12 right-0 bg-primary-600 text-white px-6 py-2 rounded-full transform rotate-14 shadow-lg">
+            <div className="absolute -top-8 right-0 bg-primary-600 text-white px-6 py-2 rounded-full transform rotate-14 shadow-lg">
               <span className="text-sm font-semibold"><span className="text-xl">100</span>+ Startups Helped</span>
             </div>
             
@@ -41,7 +55,7 @@ export default function Home() {
               Personalized Solutions for Startups, Founders, Businesses & Professionals
             </h2>
             <p className="text-lg text-primary-700 mb-8">
-              You have a vision for your future in the U.S. We're here to help you make it a reality.
+              You have a vision for your future in the U.S. We&apos;re here to help you make it a reality.
             </p>
             <a
               href="#contact"
@@ -159,7 +173,7 @@ export default function Home() {
               <div className="text-center md:text-left">
                 <h2 className="text-3xl font-bold mb-8">Start Your Immigration Journey Now</h2>
                 <p className="text-secondary-100 mb-8">
-                  Ready to take the next step in your U.S. immigration journey? We're here to help guide you through the process with expertise and dedication. Get in touch with us to discuss your unique situation and explore your options.
+                  Ready to take the next step in your U.S. immigration journey? We&apos;re here to help guide you through the process with expertise and dedication. Get in touch with us to discuss your unique situation and explore your options.
                 </p>
                 <div className="space-y-6">
                   <div className="flex items-center md:justify-start space-x-2">

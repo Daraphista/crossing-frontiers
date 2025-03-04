@@ -43,11 +43,11 @@ export default function OwnerSpotlight() {
                 </p>
                 <div className="border-l-4 border-primary-800 pl-6 py-2">
                   <p className="text-lg font-medium text-primary-800">
-                    "I believe in creating clear, strategic pathways for my clients' immigration success."
+                    &ldquo;I believe in creating clear, strategic pathways for my clients&apos; immigration success.&rdquo;
                   </p>
                 </div>
                 <p className="leading-relaxed">
-                  With international experience spanning the Middle East and Asia, Alyssa brings a global perspective to immigration law. Her diverse background and comprehensive understanding of cross-border matters enable her to provide nuanced, effective solutions for her clients' immigration needs.
+                  With international experience spanning the Middle East and Asia, Alyssa brings a global perspective to immigration law. Her diverse background and comprehensive understanding of cross-border matters enable her to provide nuanced, effective solutions for her clients&apos; immigration needs.
                 </p>
                 <div className="bg-secondary-50 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-primary-800 mb-3">Areas of Focus</h3>
