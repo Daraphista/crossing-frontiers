@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container px-6 py-4 mx-auto">
           <div className="flex items-center justify-between">
             <div className="text-primary-800 text-2xl font-bold">
-              Crossing Frontiers P.C.
+              Crossing Frontiers
             </div>
             <div className="md:flex hidden space-x-8">
               <a href="#about" className="text-primary-600 hover:text-primary-800">About</a>
