@@ -40,8 +40,8 @@ export default function Home() {
       }} />
 
       {/* Hero Section */}
-      <section className="pt-44 bg-secondary-100 pb-20">
-        <div className="container px-6 mx-auto">
+      <section className="pt-44 bg-secondary-100 relative pb-20">
+        <div className="container relative z-10 px-6 mx-auto">
           <div className="relative max-w-4xl mx-auto text-center">
             {/* Trust Badge */}
             <div className="-top-16 bg-primary-600 rotate-14 border-primary-500 text-secondary-50 absolute right-0 p-4 transform border-2 rounded-lg shadow-lg">
@@ -65,10 +65,18 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        <div className="absolute inset-0 overflow-hidden">
+          <img 
+            src="/hero-background.png" 
+            alt=""
+            className="opacity-10 object-cover w-full h-full"
+          />
+        </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20">
+      <section id="about" className="bg-secondary-50 py-20">
         <div className="container px-6 mx-auto">
           <div className="max-w-6xl mx-auto">
             <div className="md:grid-cols-2 grid gap-12">
@@ -90,7 +98,7 @@ export default function Home() {
                 </div>
 
                 {/* Owner Card Overlay */}
-                <div className="bg-white/90 absolute top-0 left-0 right-0 flex items-center gap-4 p-3 px-4">
+                <div className="border-secondary-100 bg-white/90 absolute top-0 left-0 right-0 flex items-center gap-4 p-3 px-4 border-2 rounded-lg">
                   <img src="/founder-profile-picture.png" alt="Alyssa Hussein" className="border-primary-500 w-16 h-16 p-1 border-2 rounded-full" />
                   <div className="">
                     <span className="text-primary-500 text-sm font-semibold uppercase">Founder of Crossing Frontiers</span>
