@@ -202,10 +202,6 @@ export default function Home() {
                     <span className="text-sm">Client Reviews</span>
                   </div>
                 </div>
-                {/* Service Badge */}
-                <div className="absolute -bottom-4 -left-4 bg-primary-700 text-white px-6 py-3 rounded-full shadow-lg">
-                  <span className="text-sm font-semibold">Dedicated Support</span>
-                </div>
               </div>
             </div>
           </div>
