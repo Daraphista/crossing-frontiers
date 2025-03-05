@@ -40,12 +40,12 @@ export default function Home() {
       }} />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-r from-secondary-50 to-secondary-100">
+      <section className="pt-44 pb-20 bg-gradient-to-r from-secondary-50 to-secondary-100">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center relative">
             {/* Trust Badge */}
-            <div className="absolute -top-8 right-0 bg-primary-600 text-white px-6 py-2 rounded-full transform rotate-14 shadow-lg">
-              <span className="text-sm font-semibold"><span className="text-xl">100</span>+ Startups Helped</span>
+            <div className="absolute -top-12 right-0 bg-primary-600 text-white px-6 py-2 rounded-full transform rotate-14 shadow-lg">
+              <span className="text-sm font-semibold"><span className="text-xl">100+</span> Startups Helped</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-primary-800 mb-6">
