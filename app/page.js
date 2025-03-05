@@ -79,7 +79,7 @@ export default function Home() {
       <section id="about" className="bg-secondary-50 py-20">
         <div className="container px-6 mx-auto">
           <div className="max-w-6xl mx-auto">
-            <div className="md:grid-cols-2 grid gap-12">
+            <div className="md:grid-cols-2 grid items-center gap-12">
               {/* Left Section - Image */}
               <div className="relative">
                 <div className="w-full h-[400px] rounded-lg overflow-hidden">
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
 
               {/* Right Column - Image */}
-              <div className="relative">
+              <div className="h-fit relative">
                 <div className="w-full h-[500px] rounded-lg overflow-hidden">
                   <img 
                     src="/our-expertise.png"
@@ -193,7 +193,7 @@ export default function Home() {
       <section id="contact" className="bg-primary-800 py-20 text-white">
         <div className="container px-6 mx-auto">
           <div className="max-w-6xl mx-auto">
-            <div className="md:grid-cols-2 grid gap-12">
+            <div className="md:grid-cols-2 grid items-center gap-12">
               {/* Left Column - Content */}
               <div className="md:text-left text-center">
                 <h2 className="mb-8 text-3xl font-bold">Start Your Immigration Journey Now</h2>
