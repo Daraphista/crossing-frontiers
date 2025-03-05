@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation Bar */}
-      <nav className="fixed top-0 z-50 w-full bg-white shadow-sm">
+      <nav className="bg-secondary-100 fixed top-0 z-50 w-full shadow-sm">
         <div className="container px-6 py-4 mx-auto">
           <div className="flex items-center justify-between">
             <div className="text-primary-800 text-2xl font-bold">

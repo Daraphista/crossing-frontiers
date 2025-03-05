@@ -70,7 +70,7 @@ export default function Services() {
           <h3 className="text-primary-700 mb-8 text-2xl font-bold">U.S. Work Visas</h3>
           <div className="md:grid-cols-2 grid gap-8">
             {visaCategories.map((category, index) => (
-              <div className="border-secondary-200 overflow-hidden bg-white border-2 rounded-lg shadow-lg">
+              <div key={index} className="border-secondary-200 overflow-hidden bg-white border-2 rounded-lg shadow-lg">
                 <div className="relative">
                   <img
                     src={category.image}
@@ -80,7 +80,7 @@ export default function Services() {
                   <div className="bg-gradient-to-b to-white absolute inset-0 flex items-center justify-center"></div>
                   <div className="bg-gradient-to-tr from-white to-transparent absolute inset-0 flex items-center justify-center"></div>
                 </div>
-                <div key={index} className="relative z-10 h-full p-6 -mt-32">
+                <div className="relative z-10 h-full p-6 -mt-32">
                   <h4 className="text-primary-800 mb-4 text-2xl font-semibold">{category.title}</h4>
                   <ul className="space-y-4">
                     {category.items.map((item, itemIndex) => (
@@ -101,7 +101,7 @@ export default function Services() {
           <h3 className="text-primary-700 mb-8 text-2xl font-bold">U.S. Permanent Residence (Green Cards)</h3>
           <div className="md:grid-cols-2 lg:grid-cols-3 grid gap-8">
             {greenCardCategories.map((category, index) => (
-              <div className="border-secondary-200 overflow-hidden bg-white border-2 rounded-lg shadow-lg">
+              <div key={index} className="border-secondary-200 overflow-hidden bg-white border-2 rounded-lg shadow-lg">
                 <div className="relative">
                   <img
                     src={category.image}
@@ -111,7 +111,7 @@ export default function Services() {
                   <div className="bg-gradient-to-b to-white absolute inset-0 flex items-center justify-center"></div>
                   <div className="bg-gradient-to-tr from-white to-transparent absolute inset-0 flex items-center justify-center"></div>
                 </div>
-                <div key={index} className="relative z-10 h-full p-6 -mt-24">
+                <div className="relative z-10 h-full p-6 -mt-24">
                   <h4 className="text-primary-800 mb-4 text-2xl font-semibold">{category.title}</h4>
                   <ul className="space-y-4">
                     {category.items.map((item, itemIndex) => (
