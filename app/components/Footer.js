@@ -35,7 +35,7 @@ export default function Footer() {
     <footer className="bg-primary-900 text-white">
       <div className="container px-6 py-12 mx-auto">
         {/* Main Footer Content */}
-        <div className="flex flex-col justify-between gap-12">
+        <div className="lg:flex-row flex flex-col justify-between gap-12">
           {/* Brand Column */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Crossing Frontiers P.C.</h3>
