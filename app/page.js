@@ -225,7 +225,7 @@ export default function Home() {
                   />
                 </div>
                 {/* Client Badge */}
-                <div className="-top-20 -right-20 text-primary-800 rotate-6 bg-secondary-50 border-secondary-100 absolute p-6 transform border-2 rounded-lg shadow-xl">
+                <div className="-top-20 -right-10 text-primary-800 rotate-6 bg-secondary-50 border-secondary-100 lg:p-6 absolute p-3 transform border-2 rounded-lg shadow-xl">
                   <div className="text-center">
                     <span className="block text-2xl font-bold">★★★★★</span>
                     <span className="text-sm">Client Success</span>
