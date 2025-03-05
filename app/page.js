@@ -68,7 +68,7 @@ export default function Home() {
 
         <div className="absolute inset-0 overflow-hidden">
           <img 
-            src="/hero-background.png" 
+            src="/hero-background.webp" 
             alt=""
             className="opacity-10 object-cover w-full h-full"
           />
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="relative">
                 <div className="w-full h-[400px] rounded-lg overflow-hidden">
                   <img 
-                    src="/about.png"
+                    src="/about.webp"
                     alt="Alyssa Hussein, immigration attorney at Crossing Frontiers P.C."
                     className="object-cover w-full h-full"
                   />
@@ -99,7 +99,7 @@ export default function Home() {
 
                 {/* Owner Card Overlay */}
                 <div className="border-secondary-100 bg-white/90 absolute top-0 left-0 right-0 flex items-center gap-4 p-3 px-4 border-2 rounded-lg">
-                  <img src="/founder-profile-picture.png" alt="Alyssa Hussein" className="border-primary-500 w-16 h-16 p-1 border-2 rounded-full" />
+                  <img src="/founder-profile-picture.webp" alt="Alyssa Hussein" className="border-primary-500 w-16 h-16 p-1 border-2 rounded-full" />
                   <div className="">
                     <span className="text-primary-500 text-sm font-semibold uppercase">Founder of Crossing Frontiers</span>
                     <span className="text-primary-700 block text-xl font-bold">Alyssa Hussein</span>
@@ -160,7 +160,7 @@ export default function Home() {
               <div className="h-fit relative">
                 <div className="w-full h-[500px] rounded-lg overflow-hidden">
                   <img 
-                    src="/our-expertise.png"
+                    src="/our-expertise.webp"
                     alt="Our expertise in immigration law"
                     className="object-cover w-full h-full"
                   />
@@ -219,7 +219,7 @@ export default function Home() {
               <div className="relative">
                 <div className="w-full overflow-hidden rounded-lg">
                   <img
-                    src="/calendly.png"
+                    src="/calendly.webp"
                     alt="Schedule a consultation"
                     className="object-cover w-full h-full"
                   />

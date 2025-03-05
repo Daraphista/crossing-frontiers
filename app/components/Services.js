@@ -2,7 +2,7 @@ export default function Services() {
   const visaCategories = [
     {
       title: "Treaty-Based Visas",
-      image: "/treaty-visa.png",
+      image: "/treaty-visa.webp",
       items: [
         { name: "TN Visa", description: "For Canadian and Mexican professionals" },
         { name: "E-1 & E-2 Visas", description: "For entrepreneurs, traders, and investors from treaty countries" }
@@ -10,7 +10,7 @@ export default function Services() {
     },
     {
       title: "Specialty Occupation Visas", 
-      image: "/specialty-visa.png",
+      image: "/specialty-visa.webp",
       items: [
         { name: "H-1B Visa", description: "For professionals in specialty occupations" },
         { name: "E-3 Visa", description: "Exclusively for Australian nationals" },
@@ -19,14 +19,14 @@ export default function Services() {
     },
     {
       title: "Intracompany Transfers",
-      image: "/intracompany.png",
+      image: "/intracompany.webp",
       items: [
         { name: "L-1 Visa", description: "For executives, managers, and specialized employees transferring to a U.S. office or launching a new U.S. branch" }
       ]
     },
     {
       title: "Extraordinary Ability Visas",
-      image: "/extraordinary-ability.png",
+      image: "/extraordinary-ability.webp",
       items: [
         { name: "O-1 Visa", description: "For individuals recognized for extraordinary ability in science, business, arts, sports, motion picture & television industries" }
       ]
@@ -36,7 +36,7 @@ export default function Services() {
   const greenCardCategories = [
     {
       title: "EB-1: Priority Workers",
-      image: "/eb-1.png",
+      image: "/eb-1.webp",
       items: [
         { name: "EB-1A", description: "For individuals with extraordinary ability" },
         { name: "EB-1B", description: "For outstanding professors and researchers" },
@@ -45,7 +45,7 @@ export default function Services() {
     },
     {
       title: "EB-2: Advanced Degree & Exceptional Ability",
-      image: "/eb-2.png",
+      image: "/eb-2.webp",
       items: [
         { name: "EB-2 PERM", description: "For professionals with an advanced degree" },
         { name: "EB-2 NIW", description: "For individuals with work benefiting the United States nationally" }
@@ -53,7 +53,7 @@ export default function Services() {
     },
     {
       title: "EB-3: Skilled & Other Workers",
-      image: "/eb-3.png",
+      image: "/eb-3.webp",
       items: [
         { name: "EB-3 PERM", description: "For skilled, professional, and unskilled workers" }
       ]

@@ -8,7 +8,7 @@ export default function OwnerSpotlight() {
             <div className="space-y-6">
               <div className="relative">
                 <img 
-                  src="/founder-spotlight.png"
+                  src="/founder-spotlight.webp"
                   alt="Alyssa Hussein - Immigration Attorney"
                   className="aspect-square object-cover w-full rounded-lg shadow-lg"
                 />
