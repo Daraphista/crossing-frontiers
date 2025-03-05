@@ -40,7 +40,7 @@ export default function Home() {
       }} />
 
       {/* Hero Section */}
-      <section className="pt-44 bg-gradient-to-r from-secondary-50 to-secondary-100 pb-20">
+      <section className="pt-44 bg-secondary-100 pb-20">
         <div className="container px-6 mx-auto">
           <div className="relative max-w-4xl mx-auto text-center">
             {/* Trust Badge */}
@@ -90,7 +90,7 @@ export default function Home() {
                 </div>
 
                 {/* Owner Card Overlay */}
-                <div className="bg-white/90 absolute bottom-0 left-0 right-0 flex items-center gap-4 p-3">
+                <div className="bg-white/90 absolute top-0 left-0 right-0 flex items-center gap-4 p-3 px-4">
                   <img src="/founder-profile-picture.png" alt="Alyssa Hussein" className="border-primary-500 w-16 h-16 p-1 border-2 rounded-full" />
                   <div className="">
                     <span className="text-primary-500 text-sm font-semibold uppercase">Founder of Crossing Frontiers</span>
