@@ -12,7 +12,7 @@ export default function OwnerSpotlight() {
                   alt="Alyssa Hussein - Immigration Attorney"
                   className="aspect-square object-cover w-full rounded-lg shadow-lg"
                 />
-                <div className="-bottom-6 -right-6 bg-primary-800 absolute p-6 text-white rounded-lg shadow-xl">
+                <div className="-bottom-6 -right-6 bg-primary-600 border-primary-500 text-secondary-50 absolute p-6 border-2 rounded-lg shadow-xl">
                   <h3 className="mb-2 text-xl font-semibold">Licensed in</h3>
                   <ul className="space-y-1">
                     <li>• Michigan (U.S.)</li>
@@ -21,7 +21,7 @@ export default function OwnerSpotlight() {
                 </div>
               </div>
               
-              <div className="bg-secondary-50 p-6 mt-12 rounded-lg">
+              <div className="bg-secondary-50 border-secondary-100 p-6 mt-12 border-2 rounded-lg">
                 <h3 className="text-primary-800 mb-3 text-lg font-semibold">Education</h3>
                 <ul className="text-primary-700 space-y-2">
                   <li>• Juris Doctor - University of Windsor, Faculty of Law</li>
@@ -52,7 +52,7 @@ export default function OwnerSpotlight() {
                 <p className="leading-relaxed">
                   With international experience spanning the Middle East and Asia, Alyssa brings a global perspective to immigration law. Her diverse background and comprehensive understanding of cross-border matters enable her to provide nuanced, effective solutions for her clients&apos; immigration needs.
                 </p>
-                <div className="bg-secondary-50 p-6 rounded-lg">
+                <div className="bg-secondary-50 border-secondary-100 p-6 border-2 rounded-lg">
                   <h3 className="text-primary-800 mb-3 text-lg font-semibold">Areas of Focus</h3>
                   <ul className="text-primary-700 grid grid-cols-2 gap-3">
                     <li className="flex items-center">

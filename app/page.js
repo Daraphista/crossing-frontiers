@@ -44,7 +44,7 @@ export default function Home() {
         <div className="container px-6 mx-auto">
           <div className="relative max-w-4xl mx-auto text-center">
             {/* Trust Badge */}
-            <div className="-top-12 bg-primary-600 rotate-14 absolute right-0 px-6 py-2 text-white transform rounded-full shadow-lg">
+            <div className="-top-16 bg-primary-600 rotate-14 border-primary-500 text-secondary-50 absolute right-0 p-4 transform border-2 rounded-lg shadow-lg">
               <span className="text-sm font-semibold"><span className="text-xl">100+</span> Startups Helped</span>
             </div>
             
@@ -82,7 +82,7 @@ export default function Home() {
                   />
                 </div>
                 {/* Experience Badge */}
-                <div className="-bottom-6 -right-6 bg-primary-800 rotate-3 absolute p-6 text-white transform rounded-lg shadow-xl">
+                <div className="-bottom-6 -right-6 bg-primary-600 border-primary-500 rotate-3 text-secondary-50 absolute p-6 transform border-2 rounded-lg shadow-xl">
                   <div className="text-center">
                     <span className="block text-xl font-bold">10+ Years</span>
                     <span className="text-sm">Experience</span>
@@ -117,7 +117,7 @@ export default function Home() {
               <div>
                 <h3 className="text-primary-800 text-2xl font-semibold">Our Expertise</h3>
                 
-                <div className="bg-secondary-100 p-4 mt-6 rounded-lg">
+                <div className="bg-secondary-50 border-secondary-100 p-4 mt-6 border-2 rounded-lg">
                   <h4 className="text-primary-800 mb-2 font-semibold">Services We Provide:</h4>
                   <ul className="text-primary-700 space-y-2 list-disc list-inside">
                     <li>Work visas and green cards</li>
@@ -131,7 +131,7 @@ export default function Home() {
                   Our clients include startup founders revolutionizing their industries, tech professionals driving innovation, and business executives expanding their operations to the U.S.
                 </p>
 
-                <div className="bg-secondary-50 p-4 mt-6 rounded-lg">
+                <div className="bg-secondary-50 border-secondary-100 p-4 mt-6 border-2 rounded-lg">
                   <h4 className="text-primary-800 mb-2 font-semibold">Our Commitment:</h4>
                   <p className="text-primary-700">
                     With our expertise in cross-border matters and industry-specific knowledge, we help turn your U.S. immigration goals into reality. Our commitment is to provide clear guidance and reliable support throughout your immigration journey.
@@ -149,7 +149,7 @@ export default function Home() {
                   />
                 </div>
                 {/* Success Badge */}
-                <div className="-bottom-8 -left-8 bg-primary-600 -rotate-12 absolute p-8 text-white transform rounded-full shadow-xl">
+                <div className="-bottom-8 -left-8 bg-primary-600 -rotate-3 border-primary-500 text-secondary-50 absolute p-6 transform border-2 rounded-lg shadow-xl">
                   <div className="text-center">
                     <span className="block text-2xl font-bold">Proven</span>
                     <span className="text-sm">Track Record</span>
@@ -208,10 +208,10 @@ export default function Home() {
                   />
                 </div>
                 {/* Client Badge */}
-                <div className="-top-6 -right-6 text-primary-800 rotate-6 absolute p-6 transform bg-white rounded-lg shadow-xl">
+                <div className="-top-20 -right-20 text-primary-800 rotate-6 bg-secondary-50 border-secondary-100 absolute p-6 transform border-2 rounded-lg shadow-xl">
                   <div className="text-center">
                     <span className="block text-2xl font-bold">★★★★★</span>
-                    <span className="text-sm">Client Reviews</span>
+                    <span className="text-sm">Client Success</span>
                   </div>
                 </div>
               </div>
