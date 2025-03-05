@@ -74,8 +74,12 @@ export default function Home() {
             <div className="md:grid-cols-2 grid gap-12">
               {/* Left Section - Image */}
               <div className="relative">
-                <div className="w-full h-[400px] bg-secondary-200 rounded-lg overflow-hidden">
-                  {/* Placeholder for actual image */}
+                <div className="w-full h-[400px] rounded-lg overflow-hidden">
+                  <img 
+                    src="/about.png"
+                    alt="Alyssa Hussein, immigration attorney at Crossing Frontiers P.C."
+                    className="object-cover w-full h-full"
+                  />
                 </div>
                 {/* Experience Badge */}
                 <div className="-bottom-6 -right-6 bg-primary-800 rotate-3 absolute p-6 text-white transform rounded-lg shadow-xl">
@@ -137,8 +141,12 @@ export default function Home() {
 
               {/* Right Column - Image */}
               <div className="relative">
-                <div className="w-full h-[500px] bg-secondary-200 rounded-lg overflow-hidden">
-                  {/* Placeholder for actual image */}
+                <div className="w-full h-[500px] rounded-lg overflow-hidden">
+                  <img 
+                    src="/our-expertise.png"
+                    alt="Our expertise in immigration law"
+                    className="object-cover w-full h-full"
+                  />
                 </div>
                 {/* Success Badge */}
                 <div className="-bottom-8 -left-8 bg-primary-600 -rotate-12 absolute p-8 text-white transform rounded-full shadow-xl">
@@ -192,8 +200,12 @@ export default function Home() {
 
               {/* Right Column - Image with Trust Indicators */}
               <div className="relative">
-                <div className="w-full h-[400px] bg-secondary-200 rounded-lg overflow-hidden">
-                  {/* Placeholder for actual image */}
+                <div className="w-full overflow-hidden rounded-lg">
+                  <img
+                    src="/calendly.png"
+                    alt="Schedule a consultation"
+                    className="object-cover w-full h-full"
+                  />
                 </div>
                 {/* Client Badge */}
                 <div className="-top-6 -right-6 text-primary-800 rotate-6 absolute p-6 transform bg-white rounded-lg shadow-xl">
