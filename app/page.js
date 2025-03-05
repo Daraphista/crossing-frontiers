@@ -82,10 +82,19 @@ export default function Home() {
                   />
                 </div>
                 {/* Experience Badge */}
-                <div className="-bottom-6 -right-6 bg-primary-600 border-primary-500 rotate-3 text-secondary-50 absolute p-6 transform border-2 rounded-lg shadow-xl">
+                <div className="-bottom-6 -right-6 bg-primary-600 border-primary-500 rotate-3 text-secondary-50 absolute z-10 p-6 transform border-2 rounded-lg shadow-xl">
                   <div className="text-center">
                     <span className="block text-xl font-bold">10+ Years</span>
                     <span className="text-sm">Experience</span>
+                  </div>
+                </div>
+
+                {/* Owner Card Overlay */}
+                <div className="bg-white/90 absolute bottom-0 left-0 right-0 flex items-center gap-4 p-3">
+                  <img src="/founder-profile-picture.png" alt="Alyssa Hussein" className="border-primary-500 w-16 h-16 p-1 border-2 rounded-full" />
+                  <div className="">
+                    <span className="text-primary-500 text-sm font-semibold uppercase">Founder of Crossing Frontiers</span>
+                    <span className="text-primary-700 block text-xl font-bold">Alyssa Hussein</span>
                   </div>
                 </div>
               </div>
